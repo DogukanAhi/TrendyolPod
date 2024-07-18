@@ -17,6 +17,7 @@
 		0BC567C22C48F58B0091ACA9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0BC567C12C48F58B0091ACA9 /* Base */; };
 		0BC567C42C48F58E0091ACA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC567C32C48F58E0091ACA9 /* Assets.xcassets */; };
 		0BC567C72C48F58E0091ACA9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0BC567C62C48F58E0091ACA9 /* Base */; };
+		0BC567CD2C48F6EE0091ACA9 /* TrendyolPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC567CC2C48F6EE0091ACA9 /* TrendyolPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0BC567C32C48F58E0091ACA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC567C62C48F58E0091ACA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC567C82C48F58E0091ACA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC567CC2C48F6EE0091ACA9 /* TrendyolPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyolPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0BC5679C2C48F5270091ACA9 /* CoreApi */ = {
 			isa = PBXGroup;
 			children = (
+				0BC567CC2C48F6EE0091ACA9 /* TrendyolPod.swift */,
 				0BC5679D2C48F5270091ACA9 /* CoreApi.h */,
 				0BC5679E2C48F5270091ACA9 /* CoreApi.docc */,
 			);
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC567CD2C48F6EE0091ACA9 /* TrendyolPod.swift in Sources */,
 				0BC5679F2C48F5270091ACA9 /* CoreApi.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +512,7 @@
 		0BC567B22C48F5270091ACA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GZYDBKWT2W;
@@ -524,6 +529,7 @@
 		0BC567B32C48F5270091ACA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GZYDBKWT2W;
